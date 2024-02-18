@@ -14,7 +14,7 @@
     border-radius: 14px;
     width: 1320px;
     height: 600px;
-    margin: 50px 140px;
+    margin: 50px auto;
     position: relative;
     text-align: center;
 }
@@ -90,7 +90,7 @@
     border-radius: 14px;
     width: 1320px;
     height: 600px;
-    margin: 50px 140px;
+    margin: 50px auto;
     position: relative;
 }
 
