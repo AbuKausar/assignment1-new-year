@@ -1,9 +1,10 @@
 /* banner part style */
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:wght@400;700;900&display=swap');
 *{
     margin: 0;
     padding: 0;
-    font-family: "Merriweather", serif;
+    /* font-family: "Merriweather", serif; */
+    /* font-family: "Inter", sans-serif; */
 }
 
 .banner-container {
@@ -27,6 +28,7 @@
 
 .banner-text h1,h3{
     color: white;
+    font-family: "Merriweather", serif;
 }
 
 .banner-text h3{
@@ -40,3 +42,93 @@
     font-weight: 900;
 }
 
+/* Categories part styles */
+.categories{
+    margin: 80px 140px 120px;
+}
+
+.categories h1{
+    color: #F00;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+        
+}
+
+.categories p{
+    color: #F00;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.categories h2{
+    color: #070211;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 48px;
+    
+}
+
+.categories img{
+    display: block;
+    margin: 0 auto;
+}
+
+/* midnight party styles */
+.midnight-party{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.3)), url("../images/Vectorrr.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 14px;
+    width: 1320px;
+    height: 600px;
+    margin: 50px 140px;
+    position: relative;
+}
+
+.midnight-party h2,h4,p{
+    color: white;
+}
+
+.midnight-party h2{
+    color: #FFF;
+    font-family: "Merriweather", serif;
+    font-size: 64px;
+    font-weight: 900;
+}
+
+.party-heading {
+    padding-top: 126px;
+    padding-left: 126px;
+    padding-bottom: 24px;
+}
+
+.midnight-party p{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: "Inter", serif;
+    font-size: 18px;
+    font-weight: 400;     
+}
+
+.party-info{
+    padding-left: 140px;
+    padding-bottom: 48px;
+}
+
+.midnight-party a{
+    color: #FFF;
+    font-family: "Inter" , serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    padding-left: 140px;
+    text-decoration: none;
+}
