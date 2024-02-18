@@ -262,6 +262,7 @@
     font-weight: 400;
 }
 
+
 .portfolio-images {
     margin-top: 48px;
     display: flex;
@@ -269,6 +270,17 @@
     justify-content: space-evenly;
     row-gap: 10px;
     column-gap: 5px;
+}
+
+.grow img {
+    transition: 1s ease;
+}
+
+.grow img:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
 }
 
 /* subscribe part styles */
